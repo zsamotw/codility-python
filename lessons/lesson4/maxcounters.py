@@ -8,5 +8,3 @@ def solution(n, A):
         else:
             counters = [maximum] * n
     return counters
-
-res = solution(5, [3,4,4,6,1,4,4])

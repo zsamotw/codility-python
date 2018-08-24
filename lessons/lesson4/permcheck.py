@@ -12,4 +12,5 @@ def solution(N):
     sum_to_minimum = ((minimum - 1) * (minimum)) // 2
     sum_to_maximum = (maximum * (maximum + 1)) // 2
     should = sum_to_maximum - sum_to_minimum
+
     return sum_N == should

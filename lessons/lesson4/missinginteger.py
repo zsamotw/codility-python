@@ -10,7 +10,3 @@ def solution(N):
         if(contener[index]) is None:
             return index
     return 1
-
-res = solution([1, -3,3,4,-3,10])
-res = solution([-3, -2])
-res = solution([7,-1, 0,-3, -2])
