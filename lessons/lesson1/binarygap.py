@@ -6,7 +6,6 @@ def to_binary(N, res=[]):
 
 
 def solution(N):
-
     result = 0
     inLoop = 0
     is_one_before = False

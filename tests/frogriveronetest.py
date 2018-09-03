@@ -6,10 +6,10 @@ from codility.lessons.lesson4.frogriverone import *
 
 class FrogRiverOneTest(unittest.TestCase):
     def test_12345_3(self):
-        self.assertEqual(solution([1,2,3,4,5], 3), 2)
+        self.assertEqual(solution([1, 2, 3, 4, 5], 3), 2)
 
     def test_13142354_5(self):
-        self.assertEqual(solution([1,3,1,4,2,3,5,4], 5), 6)
+        self.assertEqual(solution([1, 3, 1, 4, 2, 3, 5, 4], 5), 6)
 
 
 if __name__ == '__main__':
