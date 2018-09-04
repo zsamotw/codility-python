@@ -2,7 +2,7 @@ import unittest
 from codility.lessons.lesson6.triangle import *
 
 
-class GenomicRangeQueryTest(unittest.TestCase):
+class TriangleTest(unittest.TestCase):
     def test_1234(self):
         self.assertEqual(solution([1, 2, 3, 4]), True)
 
@@ -14,5 +14,5 @@ class GenomicRangeQueryTest(unittest.TestCase):
 
 
 if __name__ == '__main__':
-    suite = unittest.TestLoader().loadTestsFromTestCase(GenomicRangeQueryTest)
+    suite = unittest.TestLoader().loadTestsFromTestCase(TriangleTest)
     unittest.TextTestRunner(verbosity=2).run(suite)

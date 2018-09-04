@@ -1,6 +1,4 @@
 import unittest
-import sys
-sys.path.insert(0, r'/home/tw/it/python/')
 from codility.lessons.lesson4.frogriverone import *
 
 
