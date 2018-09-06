@@ -8,7 +8,6 @@ def solution(A, B):
             stack = fish_stack[:]
             for f in fish_stack:
                 if f[1] == 1 and fish[1] == 0 and f[0] < fish[0]:
-                    # loop(stack, fish)
                     stack.remove(f)
 
                 elif f[1] == 1 and fish[1] == 0 and f[0] > fish[0]:
